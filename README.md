@@ -25,8 +25,10 @@ python train_net.py --num-gpus 1 --config-file configs/GoMatching_DSText.yaml
 
 ```python
 python eval.py --config-file configs/GoMatching_ICDAR15.yaml --input ./datasets/ICDAR15/frame_test/ --output output/icdar15 --opts MODEL.WEIGHTS trained_models/ICDAR15/xxx.pth
+```
 
 **DSText**
 
 ```python
 python eval.py --config-file configs/GoMatching_DSText.yaml --input ./datasets/DSText/frame_test/ --output output/dstext --opts MODEL.WEIGHTS trained_models/DSText/xxx.pth
+```

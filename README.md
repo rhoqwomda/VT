@@ -6,8 +6,6 @@ Continuously updated
 ```
 Python_3.8 + PyTorch_1.9.0 + CUDA_11.1 + Detectron2_v0.6
 pip install -r requirements.txt
-cd third_party
-python setup.py build develop
 ```
 
 # Dataset

@@ -1,5 +1,10 @@
 <h1 align="center"> Enhancing Video Text Detection through Dual-Dimensional Attention and Swin Transformer</h1>
-Continuously updated
+
+# Overview
+Video text detection poses significant challenges due to the dynamic nature of video content. To address these challenges, we propose an advanced framework that integrates a dual-dimensional attention mechanism and the Swin Transformer.By leveraging the Swin Transformer’s hierarchical structure and ability to capture both local and global dependencies, our model significantly improves feature extraction efficiency. The dual-dimensional attention mechanism further enhances detection, matching, and tracking capabilities by focusing on salient channel and spatial features. Additionally, we replace the conventional multi-layer perceptron with Kolmogorov-Arnold Networks (KAN) to improve the precision of text instance matching.
+
+# Key Features
+Experimental evaluations on the ICDAR15-video and DSText datasets demonstrate that our approach outperforms state-of-the-art models, achieving substantial gains in accuracy. Our work highlights the effectiveness of combining the Swin Transformer and dualdimensional attention for robust video text detection.
 
 # Installation
 
